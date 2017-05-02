@@ -1,0 +1,111 @@
+body {
+  background: #777;
+  width: 960px;
+  font-family: "Arial", sans-serif;
+  
+}
+
+.header {
+  background: #ebebeb;
+  color: #777;
+  text-align: center;
+  width: 800px;
+  height: 60px;
+  padding-top: 35px;
+  margin-left: 90px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  }
+
+.nav {
+  background: #ebebeb;
+  color: #777;
+  text-align: center;
+  width: 800px;
+  height: 60px;
+  padding-top: 35px;
+  margin-left: 90px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.section {
+    background: #ebebeb;
+    color: #777;
+    text-align: center;
+    width: 42%;
+    height: 250px;
+    padding-top: 35px;
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+      
+.article {
+  background: #777;
+  color: #ebebeb;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 90px;
+  width: 410px;
+  height: 175px;
+  padding-top: 20px;
+  float: left;
+  position: absolute;
+}
+  
+.h1{
+  background: #ebebeb;
+  color: #777;
+  text-align: center;
+  margin-left: 115px;
+  margin-top: 140px;
+  width: 375px;
+  height: 35px;
+  padding-top: 20px;
+  float: left;
+  position: relative;
+}
+
+.p {
+  background: #ebebeb;
+  color: #777;
+  text-align: center;
+  margin-left: 115px;
+  margin-top: 10px;
+  width: 375px;
+  height: 35px;
+  padding-top: 20px;
+  float: left;
+  position: relative;
+}
+    
+.aside {
+    background: #ebebeb;
+    color: #777;
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 36%;
+    height: 250px;
+    padding-top: 35px;
+    float: right;
+}    
+
+.footer {
+  background: #ebebeb;
+  color: #777;
+  text-align: center;
+  width: 800px;
+  height: 60px;
+  padding-top: 40px;
+  margin-left: 90px;
+  margin-top: 20px;
+  clear: both;
+}
