@@ -1,5 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+
+  /* Box-model */
+  padding: 0;
+
+  /* Positioning */
+  margin: 0;
+  font: inherit;
+
+  /* Typography */
+  font-size: 100%;
+  vertical-align: baseline;
+
+  /* Visual */
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+
+  /* Misc */
+  content: "";
+  content: none;
+}
+
+table {
+  border-spacing: 0;
+
+  /* Visual */
+  border-collapse: collapse;
+}
+
+* {
+box-sizing: border-box;
+}
+
 body {
   background: #777;
+  margin: 0 auto;
   width: 960px;
   font-family: "Arial", sans-serif;
   
@@ -37,7 +190,7 @@ body {
     background: #ebebeb;
     color: #777;
     text-align: center;
-    width: 42%;
+    width: 450px;
     height: 250px;
     padding-top: 35px;
     margin-left: 90px;
@@ -50,8 +203,8 @@ body {
   background: #777;
   color: #ebebeb;
   text-align: center;
-  margin-left: 100px;
-  margin-top: 90px;
+  margin-left: 110px;
+  margin-top: 75px;
   width: 410px;
   height: 175px;
   padding-top: 20px;
@@ -63,11 +216,11 @@ body {
   background: #ebebeb;
   color: #777;
   text-align: center;
-  margin-left: 115px;
+  margin-left: 125px;
   margin-top: 140px;
   width: 375px;
   height: 35px;
-  padding-top: 20px;
+  padding-top: 10px;
   float: left;
   position: relative;
 }
@@ -76,11 +229,11 @@ body {
   background: #ebebeb;
   color: #777;
   text-align: center;
-  margin-left: 115px;
+  margin-left: 125px;
   margin-top: 10px;
   width: 375px;
   height: 35px;
-  padding-top: 20px;
+  padding-top: 10px;
   float: left;
   position: relative;
 }
@@ -92,7 +245,7 @@ body {
     margin-right: 70px;
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 36%;
+    width: 330px;
     height: 250px;
     padding-top: 35px;
     float: right;
